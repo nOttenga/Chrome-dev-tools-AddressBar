@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Dev Tools Addess Bar",
+  "description": "This extension will create an address bar in device emulatore in CDT",
+  "version": "1.0",
+
+  "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Choose your address bar."
+    },
+    "permissions": [
+      "activeTab"
+    ]
+}
